@@ -1,0 +1,8 @@
+CREATE DATABASE crud_estoque;
+
+CREATE TABLE estoque (
+    codigo INT PRIMARY KEY,
+    nome   VARCHAR(100) NOT NULL,
+    marca  VARCHAR(100),
+    valor  NUMERIC(10,2) NOT NULL
+);
